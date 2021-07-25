@@ -1,12 +1,6 @@
-@font-face{ 
-	font-family: 'MyWebFont';
-	src: url('font/Choplin-Black.otf') format('otf'),
-	     url('font/Choplin-BlackItalic.otf') format('otf'),
-	     url('font/Choplin-Bold.otf') format('otf');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 body{
-    font-family: 'MyWebFont', Arial, Helvetica, sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
     background: linear-gradient(to right, rgb(139, 197, 235), rgb(162, 155, 211));;
 }
 /* Mis en forme et centrage des deux formulaires */
